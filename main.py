@@ -1,4 +1,6 @@
-from psychopy import visual, event, core, sound
+from psychopy import visual, event, core, prefs
+prefs.hardware['audioLib'] = ['sounddevice'] # zmiana urządzenia audio pozwala uruchamiać dźwięki
+from psychopy import sound
 import psychtoolbox as ptb
 from random import shuffle, choice
 

@@ -1,4 +1,4 @@
-from psychopy import visual, event, core, sound, gui
+from psychopy import visual, event, core, sound
 import psychtoolbox as ptb
 from random import shuffle, choice
 
